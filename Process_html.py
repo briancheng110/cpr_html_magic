@@ -13,7 +13,7 @@ url = "https://www.chicagopetrescue.org/foster-pet-update-form.html"
 
 # Configure Chrome options for headless mode
 chrome_options = ChromeOptions()
-#chrome_options.add_argument("--headless")  # Run Chrome in headless mode (no GUI)
+chrome_options.add_argument("--headless")  # Run Chrome in headless mode (no GUI)
 chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration for headless mode
 
 # Set the Chromedriver executable path
